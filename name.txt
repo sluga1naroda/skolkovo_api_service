@@ -1,0 +1,20 @@
+- JobId - уникальный идентификатор вакансии 
+- Status - статус вакансии ( 1 - открытая, 2 - закрытая, 3 - приостановленная, 4 - отменена, 5 - черновик) 
+- Name - название вакансии 
+- Region - регион публикации вакансии 
+- Description - описание вакансии 
+ 
+data_candidates.csv - Данные о связи кандидатов, ваканси и статусов [17 фич] 
+- CandidateId - уникальный id кандидата 
+- Position - позиция указанная кандидатом 
+- Sex - пол (2 - M, 1 - F, 0 - Undef) 
+- Citizenship - гражданство 
+- Age - возраст 
+- Salary - предполагаемая зп 
+- Langs - языки 
+- DriverLicense - категории прав 
+- Subway - Метро кандидата 
+- Skills - описание навыков 
+- Employment - Формат нагрузки (0 - 'Full', 1 - 'Part', 2 - 'Look-out', 3 - 'Change', 4 - 'Not full', 5 - 'does not matter') 
+- Shedule - Формат занятости (0 - 'Full', 1 - 'Flex', 2 - 'Project', 3 - 'Stage', 4 - 'Volunteering', 5 - 'does not matter') 
+- CandidateRegion - регион кандидата
